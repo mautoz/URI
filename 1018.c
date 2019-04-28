@@ -7,6 +7,7 @@ int main() {
 
     scanf("%d", &N);
 
+    printf("%d\n", N);
     printf("%d nota(s) de R$ 100,00\n", N/100);
     printf("%d nota(s) de R$ 50,00\n", (N%100)/50);
     printf("%d nota(s) de R$ 20,00\n", ((N%100)%50)/20);
