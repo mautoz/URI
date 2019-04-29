@@ -12,17 +12,13 @@ int MDC (int a, int b) {
 }
 
 int main() {
-    int casos, i;
-    int pilha[3001][2];
+    int N, i, F1, F2;
 
-    scanf("%d", &casos);
+    scanf("%d", &N);
 
-    for(i = 0; i < casos; i++) {
-        scanf("%d %d", &pilha[i][0], &pilha[i][1]);
-    }
-
-    for(i = 0; i < casos; i++) {
-        printf("%d\n", MDC(pilha[i][0], pilha[i][1]));
+    for(i = 0; i < N; i++) {
+        scanf("%d %d", &F1, &F2);
+        printf("%d\n", MDC(F1, F2));
     }
 
     return 0;
