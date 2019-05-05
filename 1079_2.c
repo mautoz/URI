@@ -10,8 +10,8 @@ int main() {
 
     for (i = 0; i < N; i++) {
         scanf("%lf %lf %lf", &x, &y, &z);
-        soma = x + y + z;
-        printf("%.1lf\n", (2*x + 3*y + 5*z)/10.0);
+        soma = 0.2*x + 0.3*y + 0.5*z;
+        printf("%.1lf\n", soma);
     }
 
     return 0;
